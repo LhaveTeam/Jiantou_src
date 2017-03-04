@@ -1,0 +1,11 @@
+//公共头部
+$fontSize:0.45333333rem;//顶部导航文字大小
+$navBarH: 1.2rem;//顶部导航的高度
+$navBarLineheight: 1.2rem;//顶部导航的行高
+$navBarIconSize:0.53333333rem;//顶部导航icon大小
+$navBackgroundColor:#3681d0;//顶部导航背景颜色
+$navBarFontColor: white;//顶部导航文字颜色
+.jt-header{ height: $navBarH; background-color: $navBackgroundColor; line-height: $navBarLineheight;
+	.mui-title{ line-height: $navBarLineheight; font-size: $fontSize; color: $navBarFontColor;}
+	.mui-icon{ padding: 0; line-height: $navBarLineheight; font-size: $navBarIconSize; color: $navBarFontColor;}
+	}

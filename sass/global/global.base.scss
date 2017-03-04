@@ -1,0 +1,9 @@
+
+/* ============================================================
+ * LHUI - Global base
+============================================================ */
+.global-body{font-family: $baseFontfamily; font-size: $baseFontSize; line-height:$baseLineheight; background-color:$baseBackgroundColor}
+.global-container{margin:0 auto 0; width:$mainPageWidth; background-color:$baseBackgroundColor;}
+.jt-scroll-wrapper{background-color: $baseBackgroundColor;}
+.jt-scroll-wrapper.mui-segmented-control{background-color:none}
+.jt-global-body .mui-table-view{width:$mainPageWidth; margin: 0 auto; }
